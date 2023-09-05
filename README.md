@@ -1,0 +1,2 @@
+# spring-ldap
+LDAP sample
