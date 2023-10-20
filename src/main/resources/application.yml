@@ -1,0 +1,9 @@
+#LDAP
+spring:
+  ldap:
+    urls: 'ldap://{your_ldap_domain}:389'
+    base: '{your_ldap_base}'
+    username: '{your_service_account}'
+    password: '{your_service_account_password}'
+    template:
+      ignore-partial-result-exception: true
